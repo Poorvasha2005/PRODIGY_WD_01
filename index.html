@@ -1,45 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather App</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-  <script src="./script.js" defer></script>
-  <script defer data-domain="sidhhu0603.github.io/prodigywd05" src="https://plausible.io/js/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Landing Page </title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <div class="card">
-    <div class="search">
-      <input type="text" class="search-bar" placeholder="Search">
-      <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
-          height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
-          </path>
-        </svg></button>
-      <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-crosshair"><circle
-            cx="12" cy="12" r="10"></circle><line x1="22" y1="12" x2="18" y2="12"></line><line x1="6" y1="12"
-            x2="2" y2="12"></line><line x1="12" y1="6" x2="12" y2="2"></line><line x1="12" y1="22" x2="12"
-            y2="18"></line></svg></button>
-    </div>
+   <header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+   </header> 
+    <section>
+        <div class="content">
+            <h1>Welcome to SOFTCARE</h1>
+            
+            <h2>Your Partner in Software Solutions!</h2>
+            <p >
+            We specialize in creating tailored software solutions to meet your unique needs. Our expertise <br>
+            spans web and mobile applications, custom software development, and more. <br>
+            
+            Explore our services, view our portfolio, or get in touch to discuss your project today!.</p>
+        </div>
 
-    <div class="weather loading">
-      <h2 class="city">Weather in Indore</h2>
-      <h1 class="temp">51°C</h1>
-      <div class="flex">
-        <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
-        <div class="description">Cloudy</div>
-      </div>
-      <div class="humidity">Humidity: 60%</div>
-      <div class="wind">Wind speed: 6.2 km/h</div>
-    </div>
-  </div>
+        <BR></BR>
+
+
+
+
+         <div class="content">
+                        <h1>SERVICES</h1>
+                        <h3>Service we provide </h3>
+                        <div class="service__content">
+               
+                            <ul class="no-disc">
+                                <li>UI & UX Design</li>
+                                <li>Frontend Development</li>
+                                <li>Full Stack Developer</li>
+                                <li>React & JavaScript Development</li>
+                            </ul>
+                        </div>
+                        <p> We provide service on the designing UI & UX , we make frontend too and also our <br> team is now giving full stack
+                             webs  and at last the UI is designed as per user need.
+                        </p>
+         </div>
+
+
+
+
+
+         <BR></BR>
+         <div class="content">
+            <h1>ABOUT US</h1>
+            <p>Welcome to SOFTCARE. We specialize in innovative software solutions since 2020, driven by a passion for <BR>
+            </BR> clean code and user-centric design.
+                 Our experienced team delivers quality results for clients worldwide.
+                 Let's build something great together!</p>
+</div>
+
+
+
+
+<BR></BR>
+<div class="content">
+    <h1>CONTACT US</h1>
+    <form id="contact-form">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="text">Description:</label>
+            <input type="text" id="text" name="text" required>
+        </div>
+        <button type="submit" id="submit-btn">Send Message</button>
+    </form>
+</div>
+
+    </section>
+    
+   
+    <footer>
+        <section class="footer-upper">
+            <div class="container">
+                <div class="footer-links">
+                    <h4>Learn with Us </h4>
+                    
+                    <ul>
+                      <li>HTML</li>
+                      <li>React</li>
+                      <li>JavaScript</li>
+                      <li>Apps</li>
+                      <li>Backend</li>
+                    </ul>
+                </div>
+            </section>
+                <section class="footer-lower">
+                    <p>Copyright to do Something</p>
+                </section>
+              </footer>
+              <script src="script.js"></script>
 </body>
 
 </html>
